@@ -77,6 +77,8 @@
     +   RMSProp (gradually reduce learning rate with control)
     +   Adam (reduce lr + momentum)
 
+-----------------------------------------
+
 ### CNN
 #### Motivation
 + Efficiently extract local features using shared weights
@@ -111,6 +113,8 @@
 * Comparison to RNN
     + CNN easier to train and suffer less from gradient vanishing problem
     + Better suits problems where inference is not required
+
+-----------------------------------------------------------
 
 ### RNN
 
@@ -155,6 +159,8 @@
         +  use identity matrix initialization to avoid getting zeros when multiplying weight matrices together
         +  use ReLU instead of sigmoid activation
         +  LSTM and GRU suffer less from this problem
+
+-------------------------------------------------------------------------
 
 ### Attention Mechanism
 #### Motivation
